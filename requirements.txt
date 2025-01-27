@@ -3,7 +3,6 @@
 torch>=2.1.0
 torchvision>=0.16.0
 torchaudio>=2.1.0
-
 hdbscan
 nltk
 pandas
@@ -12,11 +11,12 @@ transformers
 umap-learn
 
 # for noteboks
+chardet
 ipykernel
 ipython
 ipywidgets
 jupyterlab
 matplotlib
-seaborn
-plotly
 nbformat
+plotly
+seaborn
