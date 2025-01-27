@@ -1,4 +1,4 @@
-# Unsupervised Clustering Pipeline
+# Reuters advanced clustering
 
 This project implements an unsupervised clustering pipeline using UMAP for dimensionality reduction and HDBSCAN for clustering. The pipeline processes text data, generates BERT embeddings, reduces dimensionality, and performs clustering to identify meaningful groups in the data.
 
@@ -166,5 +166,6 @@ Results were analyzed using multiple visualization techniques:
 3. Statistical visualizations:
    - Distribution of cluster purities
    - Cluster size vs purity relationships
-   - Top 10 largest clusters analysis
+   - Analysis of the whole entirety cluster space
+   - Drill-downed visualization of select clusters
 
